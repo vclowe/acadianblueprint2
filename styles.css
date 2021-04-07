@@ -1,0 +1,185 @@
+@font-face {
+    font-family: Elika Gorika;
+    src: url(fonts/Elika\ Gorica.ttf)
+}
+
+
+.navbar-custom {
+    background-color: #262B65;
+}
+
+
+a {
+    font-family: 'Source Serif Pro', serif;
+
+}
+
+h1 {
+    font-family: Elika Gorika;
+    color: #262B65;
+}
+
+h1.quote {
+    font-family: Elika Gorika;
+    font-size: 100pt;
+}
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #D62326;
+}
+
+p {
+    font-family: 'Source Serif Pro', serif;
+}
+
+p.intro {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #262B65;
+    font-size: larger;
+
+}
+
+h2.about {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #262B65;
+    font-size: x-large:
+}
+
+h2.overview {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: white;
+}
+
+p.caption {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+}
+
+p.caption-cream {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    color: #262B65;
+
+    border-color: #D62326;
+}
+
+p.quote {
+    font-family: 'Source Serif Pro', serif;
+    color: #262B65;
+    font-size: x-large;
+    font-weight: 200;
+
+}
+
+p.footerP {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    color: #F9F8E1;
+}
+
+.colorme.a {
+    color: #F9F8E1;
+}
+
+.hero-image {
+    display: flex;
+    flex-direction: column;
+    background-image: url("img/background_placeholder.jpg");
+    min-height: 800px;
+    height: 100%;
+    align-self: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-text {
+    text-align: center;
+    color: white;
+    font-family: 'Source Serif Pro', serif;
+    font-weight: 400;
+    padding: 20px;
+}
+
+
+
+
+.btn-primary {
+    border-radius: 0;
+    background-color: #262B65;
+    border-color: #262B65;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+.btn-primary:hover {
+    background-color: #F9F8E1;
+    border-color: #262B65;
+    color: #262B65;
+}
+
+/* image slider */
+
+#slider {
+    overflow: hidden;
+}
+
+#slider figure {
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    animation: 15s slider infinite;
+}
+
+#slider figure img {
+    width: 20%;
+    float: left;
+}
+
+@keyframes slider {
+    0% {
+        left: 0%;
+    }
+
+    20% {
+        left: 0%;
+    }
+
+    25% {
+        left: -100%;
+    }
+
+    45% {
+        left: -100%;
+    }
+
+    50% {
+        left: -200%;
+    }
+
+    70% {
+        left: -200%;
+    }
+
+    75% {
+        left: -300%;
+    }
+
+    95% {
+        left: -300%;
+    }
+
+    100% {
+        left: -400%;
+    }
+
+
+}
