@@ -89,7 +89,7 @@ p.footerP {
 .hero-image {
     display: flex;
     flex-direction: column;
-    background-image: url("img/background_placeholder.jpg");
+    background-image: url("img/hero_grandcoteau2.jpg");
     min-height: 800px;
     height: 100%;
     align-self: center;
@@ -182,4 +182,13 @@ p.footerP {
     }
 
 
+}
+
+.bibli {
+    padding-bottom: 20px;
+    background-color: #F9F8E1;
+}
+
+a.bibli {
+    list-style: none;
 }
